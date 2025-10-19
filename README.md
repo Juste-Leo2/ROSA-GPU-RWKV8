@@ -2,7 +2,7 @@
 
 <img src="rosa_graph_gpu.png">
 
-This repository provides a high-performance PyTorch CUDA extension for the **ROSA (Rank-based Ordered Suffix Automaton)** algorithm, designed to significantly accelerate sequence processing tasks in neural networks. This implementation achieves up to a **30x speedup** over the original Python version, making it suitable for both training and inference at scale.
+This repository provides a high-performance PyTorch CUDA extension for the **ROSA (Rapid Online Suffix Automaton)** algorithm, designed to significantly accelerate sequence processing tasks in neural networks. This implementation achieves up to a **30x speedup** over the original Python version, making it suitable for both training and inference at scale.
 
 This work is inspired by and can be integrated into architectures like RWKV.
 
@@ -106,5 +106,6 @@ print("Output shape:", output_tensor.shape)
 A special thanks to **BlinkDL** for his groundbreaking work on the RWKV architecture, which continues to inspire innovation in the field of sequence modeling.
 
 ## License
+
 
 This project is distributed under the **Apache 2.0 License**. See the `LICENSE` file for more details.
