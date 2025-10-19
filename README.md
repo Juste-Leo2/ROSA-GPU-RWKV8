@@ -28,7 +28,7 @@ Performance comparison against the original sequential Python implementation.
 
 ### Windows
 
--   **Visual Studio**: 2019 or later, with the "Desktop development with C++" workload installed. This provides the necessary C++ toolchain (`cl.exe`).
+-   **Visual Studio**: 2022 or later, with the "Desktop development with C++" workload installed. This provides the necessary C++ toolchain (`cl.exe`).
 -   **NVIDIA GPU**: A CUDA-enabled NVIDIA GPU with up-to-date drivers.
 -   **NVIDIA CUDA Toolkit**: Version **12.8** is recommended. [Download here](https://developer.nvidia.com/cuda-12-8-0-download-archive).
 
@@ -109,3 +109,4 @@ A special thanks to **BlinkDL** for his groundbreaking work on the RWKV architec
 
 
 This project is distributed under the **Apache 2.0 License**. See the `LICENSE` file for more details.
+
